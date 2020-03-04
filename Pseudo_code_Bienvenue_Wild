@@ -1,20 +1,13 @@
 Variables
-  count
+count #entier positif
 
 DEBUT
+
 Afficher “Nombre de message a ecrire :”
 Lire count
-Si count > 0, alors
-	Si count est ENTIER, alors
-		Pour i de 1 à count, faire
-      Afficher “Bienvenue à la wild”
-  Fin Pour
-	Sinon
-		Afficher “Nombre non valide : nombre doit être un entier > 0”
-    Afficher “Nombre de message a ecrire :”
-	Fin Si
-Sinon
-  Afficher“Nombre non valide : nombre doit être un entier > 0”
-  Afficher “Nombre de message a ecrire :”
-Fin Si
+
+Pour i de 1 à count, faire
+|	Afficher “Bienvenue à la wild”
+Fin Pour”
+ 
 FIN
